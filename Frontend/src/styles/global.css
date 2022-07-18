@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-file-upload-button {
+  background: #ffad08;
+  color: white;
+  border: 2px solid #ffad08;
+  border-radius: 5px;
+}
